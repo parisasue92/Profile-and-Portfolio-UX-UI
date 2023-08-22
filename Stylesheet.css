@@ -1,0 +1,29 @@
+
+
+
+
+
+
+#header{
+    position: fixed;
+    font-family: serif;
+    font-size: large;
+    align-items: block;
+    color:#357B7A;
+    background-color: #FFFEE8;
+}
+
+.logo{ float: left;
+    margin-top: 0;
+    margin-bottom: 15px;
+    }
+
+.nav{
+    align-items: last baseline;
+    position:fixed;
+
+}
+
+.body{
+    background-image: url(/img/Pexels\ Photo\ by\ Zaksheuskaya.png);
+}
