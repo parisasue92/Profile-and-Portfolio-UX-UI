@@ -4,8 +4,10 @@
 
 
 
-#header{
+.header{
     position: fixed;
+    top:0;
+    width: 100%;
     font-family: serif;
     font-size: large;
     align-items: block;
@@ -13,17 +15,37 @@
     background-color: #FFFEE8;
 }
 
+.container-fluid{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:fixed top;
+    top: 0;
+    width:100%;
+    background-color: #054D3B;
+    color:white;
+    font-display: white;
+    border-radius: 10 px;
+    padding: 20 px;}
+
+.nav{align-content: center;
+}
+
+
+.img{
+    size-adjust: 200px;
+}
+
 .logo{ float: left;
     margin-top: 0;
     margin-bottom: 15px;
+    size-adjust: 150 px;
     }
 
-.nav{
+nav{
     align-items: last baseline;
     position:fixed;
 
 }
 
-.body{
+body{
     background-image: url(/img/Pexels\ Photo\ by\ Zaksheuskaya.png);
 }
